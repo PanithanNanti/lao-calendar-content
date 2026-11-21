@@ -1,70 +1,133 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "2026-11-21.1",
+  "contentVersion": "2026-11-21.2",
   "events": [
     {
       "id": "new-year",
       "kind": "publicHoliday",
-      "title": { "lo": "ວັນປີໃໝ່ສາກົນ", "en": "International New Year's Day" },
-      "rule": { "type": "fixed", "month": 1, "day": 1 },
+      "title": {
+        "lo": "ວັນປີໃໝ່ສາກົນ",
+        "en": "International New Year's Day"
+      },
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 1
+      },
       "source": "BCEL calendar 2022-2026; Decree on Holidays No. 386 (2017)"
     },
     {
       "id": "armed-forces-day",
       "kind": "commemoration",
-      "title": { "lo": "ວັນສ້າງຕັ້ງກອງທັບປະຊາຊົນລາວ", "en": "Lao People's Armed Force Day" },
-      "rule": { "type": "fixed", "month": 1, "day": 20 },
+      "title": {
+        "lo": "ວັນສ້າງຕັ້ງກອງທັບປະຊາຊົນລາວ",
+        "en": "Lao People's Armed Force Day"
+      },
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 20
+      },
       "sinceYear": 1949,
       "source": "BCEL calendar 2022-2026"
     },
     {
       "id": "trade-union-day",
       "kind": "commemoration",
-      "title": { "lo": "ວັນສ້າງຕັ້ງສະຫະພັນກຳມະບານລາວ", "en": "Lao Federation of Trade Unions Day" },
-      "rule": { "type": "fixed", "month": 2, "day": 1 },
+      "title": {
+        "lo": "ວັນສ້າງຕັ້ງສະຫະພັນກຳມະບານລາວ",
+        "en": "Lao Federation of Trade Unions Day"
+      },
+      "rule": {
+        "type": "fixed",
+        "month": 2,
+        "day": 1
+      },
       "sinceYear": 1966,
       "source": "BCEL calendar 2022-2026"
     },
     {
       "id": "womens-day",
       "kind": "publicHoliday",
-      "title": { "lo": "ວັນແມ່ຍິງສາກົນ", "en": "International Women's Day" },
-      "rule": { "type": "fixed", "month": 3, "day": 8 },
+      "title": {
+        "lo": "ວັນແມ່ຍິງສາກົນ",
+        "en": "International Women's Day"
+      },
+      "rule": {
+        "type": "fixed",
+        "month": 3,
+        "day": 8
+      },
       "sinceYear": 1910,
       "source": "BCEL calendar 2022-2026; Decree on Holidays No. 386 (2017)"
     },
     {
       "id": "party-day",
       "kind": "commemoration",
-      "title": { "lo": "ວັນສ້າງຕັ້ງພັກປະຊາຊົນປະຕິວັດລາວ", "en": "Establishment Day of the Lao People's Revolutionary Party" },
-      "rule": { "type": "fixed", "month": 3, "day": 22 },
+      "title": {
+        "lo": "ວັນສ້າງຕັ້ງພັກປະຊາຊົນປະຕິວັດລາວ",
+        "en": "Establishment Day of the Lao People's Revolutionary Party"
+      },
+      "rule": {
+        "type": "fixed",
+        "month": 3,
+        "day": 22
+      },
       "sinceYear": 1955,
       "source": "BCEL calendar 2022-2026"
     },
     {
       "id": "youth-union-day",
       "kind": "commemoration",
-      "title": { "lo": "ວັນສ້າງຕັ້ງອົງການຈັດຕັ້ງຊາວໜຸ່ມປະຊາຊົນປະຕິວັດລາວ", "en": "Lao People's Revolutionary Youth Union Day" },
-      "rule": { "type": "fixed", "month": 4, "day": 14 },
+      "title": {
+        "lo": "ວັນສ້າງຕັ້ງອົງການຈັດຕັ້ງຊາວໜຸ່ມປະຊາຊົນປະຕິວັດລາວ",
+        "en": "Lao People's Revolutionary Youth Union Day"
+      },
+      "rule": {
+        "type": "fixed",
+        "month": 4,
+        "day": 14
+      },
       "sinceYear": 1955,
       "source": "BCEL calendar 2022-2026"
     },
     {
       "id": "lao-new-year",
       "kind": "publicHoliday",
-      "title": { "lo": "ບຸນປີໃໝ່ລາວ", "en": "Lao New Year" },
+      "title": {
+        "lo": "ບຸນປີໃໝ່ລາວ",
+        "en": "Lao New Year"
+      },
       "description": {
         "lo": "ບຸນສົງການ ຕ້ອນຮັບປີໃໝ່ລາວ: ສົງນ້ຳພະ, ຢອດນ້ຳໃສ່ມືຜູ້ໃຫຍ່ ແລະ ຂໍພອນ. ວັນທຳອິດແມ່ນວັນສັງຂານລ່ວງ, ວັນສຸດທ້າຍແມ່ນວັນສັງຂານຂຶ້ນ.",
         "en": "Songkran, the Lao New Year: bathing Buddha images, pouring water on elders' hands and asking for blessings. The first day is Sangkhan Luang, the last Sangkhan Kheun."
       },
       "rule": {
-        "type": "fixed", "month": 4, "day": 14, "length": 3,
+        "type": "fixed",
+        "month": 4,
+        "day": 14,
+        "length": 3,
         "overrides": {
-          "2012": ["2012-04-13", "2012-04-15"],
-          "2016": ["2016-04-13", "2016-04-16"],
-          "2017": ["2017-04-13", "2017-04-15"],
-          "2020": ["2020-04-13", "2020-04-16"],
-          "2024": ["2024-04-13", "2024-04-16"]
+          "2012": [
+            "2012-04-13",
+            "2012-04-15"
+          ],
+          "2016": [
+            "2016-04-13",
+            "2016-04-16"
+          ],
+          "2017": [
+            "2017-04-13",
+            "2017-04-15"
+          ],
+          "2020": [
+            "2020-04-13",
+            "2020-04-16"
+          ],
+          "2024": [
+            "2024-04-13",
+            "2024-04-16"
+          ]
         }
       },
       "reviewed": false,
@@ -73,95 +136,179 @@
     {
       "id": "labour-day",
       "kind": "publicHoliday",
-      "title": { "lo": "ວັນກຳມະກອນສາກົນ", "en": "International Labour Day" },
-      "rule": { "type": "fixed", "month": 5, "day": 1 },
+      "title": {
+        "lo": "ວັນກຳມະກອນສາກົນ",
+        "en": "International Labour Day"
+      },
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 1
+      },
       "sinceYear": 1886,
       "source": "BCEL calendar 2022-2026; Decree on Holidays No. 386 (2017)"
     },
     {
       "id": "children-arbor-day",
       "kind": "commemoration",
-      "title": { "lo": "ວັນເດັກນ້ອຍສາກົນ ແລະ ວັນປູກຕົ້ນໄມ້ແຫ່ງຊາດ", "en": "International Children's Day and National Arbor Day" },
-      "rule": { "type": "fixed", "month": 6, "day": 1 },
+      "title": {
+        "lo": "ວັນເດັກນ້ອຍສາກົນ ແລະ ວັນປູກຕົ້ນໄມ້ແຫ່ງຊາດ",
+        "en": "International Children's Day and National Arbor Day"
+      },
+      "rule": {
+        "type": "fixed",
+        "month": 6,
+        "day": 1
+      },
       "source": "BCEL calendar 2022-2026"
     },
     {
       "id": "souphanouvong-birthday",
       "kind": "commemoration",
-      "title": { "lo": "ວັນຄ້າຍວັນເກີດ ປະທານ ສຸພານຸວົງ", "en": "President Souphanouvong's Birthday" },
-      "rule": { "type": "fixed", "month": 7, "day": 13 },
+      "title": {
+        "lo": "ວັນຄ້າຍວັນເກີດ ປະທານ ສຸພານຸວົງ",
+        "en": "President Souphanouvong's Birthday"
+      },
+      "rule": {
+        "type": "fixed",
+        "month": 7,
+        "day": 13
+      },
       "sinceYear": 1909,
       "source": "BCEL calendar 2022-2026"
     },
     {
       "id": "wildlife-day",
       "kind": "commemoration",
-      "title": { "lo": "ວັນປ່ອຍປາ ແລະ ອະນຸລັກສັດນ້ຳ-ສັດປ່າແຫ່ງຊາດ", "en": "National Day for Wildlife and Aquatic Animal Conservation" },
-      "rule": { "type": "fixed", "month": 7, "day": 13 },
+      "title": {
+        "lo": "ວັນປ່ອຍປາ ແລະ ອະນຸລັກສັດນ້ຳ-ສັດປ່າແຫ່ງຊາດ",
+        "en": "National Day for Wildlife and Aquatic Animal Conservation"
+      },
+      "rule": {
+        "type": "fixed",
+        "month": 7,
+        "day": 13
+      },
       "fromYear": 1997,
       "source": "BCEL calendar 2022-2026"
     },
     {
       "id": "womens-union-day",
       "kind": "commemoration",
-      "title": { "lo": "ວັນສ້າງຕັ້ງສະຫະພັນແມ່ຍິງລາວ", "en": "Establishment Day of the Lao Women's Union" },
-      "rule": { "type": "fixed", "month": 7, "day": 20 },
+      "title": {
+        "lo": "ວັນສ້າງຕັ້ງສະຫະພັນແມ່ຍິງລາວ",
+        "en": "Establishment Day of the Lao Women's Union"
+      },
+      "rule": {
+        "type": "fixed",
+        "month": 7,
+        "day": 20
+      },
       "sinceYear": 1955,
       "source": "BCEL calendar 2022-2026"
     },
     {
       "id": "media-day",
       "kind": "commemoration",
-      "title": { "lo": "ວັນສື່ມວນຊົນແຫ່ງຊາດ ແລະ ວັນພິມຈຳໜ່າຍ", "en": "Lao National Mass Media and Publishing Day" },
-      "rule": { "type": "fixed", "month": 8, "day": 13 },
+      "title": {
+        "lo": "ວັນສື່ມວນຊົນແຫ່ງຊາດ ແລະ ວັນພິມຈຳໜ່າຍ",
+        "en": "Lao National Mass Media and Publishing Day"
+      },
+      "rule": {
+        "type": "fixed",
+        "month": 8,
+        "day": 13
+      },
       "sinceYear": 1950,
       "source": "BCEL calendar 2022-2026"
     },
     {
       "id": "constitution-day",
       "kind": "commemoration",
-      "title": { "lo": "ວັນລັດຖະທຳມະນູນແຫ່ງຊາດ", "en": "Lao National Constitution Day" },
-      "rule": { "type": "fixed", "month": 8, "day": 15 },
+      "title": {
+        "lo": "ວັນລັດຖະທຳມະນູນແຫ່ງຊາດ",
+        "en": "Lao National Constitution Day"
+      },
+      "rule": {
+        "type": "fixed",
+        "month": 8,
+        "day": 15
+      },
       "sinceYear": 1991,
       "source": "BCEL calendar 2022-2026"
     },
     {
       "id": "uprising-day",
       "kind": "commemoration",
-      "title": { "lo": "ວັນຍຶດອຳນາດທົ່ວປະເທດ", "en": "National Uprising Day" },
-      "rule": { "type": "fixed", "month": 8, "day": 23 },
+      "title": {
+        "lo": "ວັນຍຶດອຳນາດທົ່ວປະເທດ",
+        "en": "National Uprising Day"
+      },
+      "rule": {
+        "type": "fixed",
+        "month": 8,
+        "day": 23
+      },
       "sinceYear": 1975,
       "source": "BCEL calendar 2022-2026"
     },
     {
       "id": "bol-day",
       "kind": "bank",
-      "title": { "lo": "ວັນສ້າງຕັ້ງທະນາຄານແຫ່ງ ສປປ ລາວ", "en": "Establishment Day of the Bank of the Lao PDR" },
-      "rule": { "type": "fixed", "month": 10, "day": 7 },
+      "title": {
+        "lo": "ວັນສ້າງຕັ້ງທະນາຄານແຫ່ງ ສປປ ລາວ",
+        "en": "Establishment Day of the Bank of the Lao PDR"
+      },
+      "rule": {
+        "type": "fixed",
+        "month": 10,
+        "day": 7
+      },
       "sinceYear": 1968,
       "source": "BCEL calendar 2022-2026"
     },
     {
       "id": "teacher-day",
       "kind": "commemoration",
-      "title": { "lo": "ວັນຄູແຫ່ງຊາດ", "en": "National Teacher's Day" },
-      "rule": { "type": "fixed", "month": 10, "day": 7 },
+      "title": {
+        "lo": "ວັນຄູແຫ່ງຊາດ",
+        "en": "National Teacher's Day"
+      },
+      "rule": {
+        "type": "fixed",
+        "month": 10,
+        "day": 7
+      },
       "sinceYear": 1994,
       "source": "BCEL calendar 2022-2026"
     },
     {
       "id": "independence-day",
       "kind": "commemoration",
-      "title": { "lo": "ວັນປະກາດເອກະລາດ", "en": "Independence Declaration Day" },
-      "rule": { "type": "fixed", "month": 10, "day": 12 },
+      "title": {
+        "lo": "ວັນປະກາດເອກະລາດ",
+        "en": "Independence Declaration Day"
+      },
+      "rule": {
+        "type": "fixed",
+        "month": 10,
+        "day": 12
+      },
       "sinceYear": 1945,
       "source": "BCEL calendar 2022-2026"
     },
     {
       "id": "national-day",
       "kind": "publicHoliday",
-      "title": { "lo": "ວັນຊາດ ສປປ ລາວ", "en": "Lao National Day" },
-      "rule": { "type": "fixed", "month": 12, "day": 2 },
+      "title": {
+        "lo": "ວັນຊາດ ສປປ ລາວ",
+        "en": "Lao National Day"
+      },
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 2
+      },
       "sinceYear": 1975,
       "fromYear": 1976,
       "source": "BCEL calendar 2022-2026; Decree on Holidays No. 386 (2017)"
@@ -169,140 +316,239 @@
     {
       "id": "kaysone-birthday",
       "kind": "commemoration",
-      "title": { "lo": "ວັນຄ້າຍວັນເກີດ ປະທານ ໄກສອນ ພົມວິຫານ", "en": "President Kaysone Phomvihane's Birthday" },
-      "rule": { "type": "fixed", "month": 12, "day": 13 },
+      "title": {
+        "lo": "ວັນຄ້າຍວັນເກີດ ປະທານ ໄກສອນ ພົມວິຫານ",
+        "en": "President Kaysone Phomvihane's Birthday"
+      },
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 13
+      },
       "sinceYear": 1920,
       "fromYear": 1991,
       "source": "BCEL calendar 2022-2026"
     },
-
     {
       "id": "makha-bousa",
       "kind": "buddhist",
-      "title": { "lo": "ວັນບຸນມາຄະບູຊາ", "en": "Makha Bousa Festival" },
+      "title": {
+        "lo": "ວັນບຸນມາຄະບູຊາ",
+        "en": "Makha Bousa Festival"
+      },
       "description": {
         "lo": "ລະນຶກເຖິງວັນທີ່ພະສົງ 1.250 ອົງ ມາປະຊຸມກັນໂດຍບໍ່ໄດ້ນັດໝາຍ ແລະ ພະພຸດທະເຈົ້າສະແດງໂອວາດປາຕິໂມກ. ຍາດໂຍມໄປວັດ ຕັກບາດ ຟັງທຳ ແລະ ວຽນທຽນ.",
         "en": "Commemorates the 1,250 monks who gathered unannounced and the Buddha's teaching of the Ovada Patimokkha. People go to the temple, give alms, listen to sermons and walk the candle procession."
       },
-      "rule": { "type": "lunar", "month": 3, "phase": "waxing", "day": 15 },
+      "rule": {
+        "type": "lunar",
+        "month": 3,
+        "phase": "waxing",
+        "day": 15
+      },
       "reviewed": false,
       "source": "BCEL calendar 2022-2026"
     },
     {
       "id": "sikhottabong-festival",
       "kind": "buddhist",
-      "title": { "lo": "ວັນບຸນນະມັດສະການ ພະທາດສີໂຄດຕະບອງ", "en": "Sikhottabong Stupa Festival" },
-      "rule": { "type": "lunar", "month": 3, "phase": "waxing", "day": 15 },
+      "title": {
+        "lo": "ວັນບຸນນະມັດສະການ ພະທາດສີໂຄດຕະບອງ",
+        "en": "Sikhottabong Stupa Festival"
+      },
+      "rule": {
+        "type": "lunar",
+        "month": 3,
+        "phase": "waxing",
+        "day": 15
+      },
       "region": "khammouane",
       "source": "BCEL calendar 2022"
     },
     {
       "id": "wat-phou-festival",
       "kind": "buddhist",
-      "title": { "lo": "ວັນບຸນນະມັດສະການ ຜາສາດຫີນ ວັດພູຈຳປາສັກ", "en": "Wat Phou Champasack Festival" },
-      "rule": { "type": "lunar", "month": 3, "phase": "waxing", "day": 15 },
+      "title": {
+        "lo": "ວັນບຸນນະມັດສະການ ຜາສາດຫີນ ວັດພູຈຳປາສັກ",
+        "en": "Wat Phou Champasack Festival"
+      },
+      "rule": {
+        "type": "lunar",
+        "month": 3,
+        "phase": "waxing",
+        "day": 15
+      },
       "region": "champasak",
       "source": "BCEL calendar 2022"
     },
     {
       "id": "visakha-bousa",
       "kind": "buddhist",
-      "title": { "lo": "ວັນບຸນວິສາຂະບູຊາ", "en": "Visakha Bousa Festival" },
+      "title": {
+        "lo": "ວັນບຸນວິສາຂະບູຊາ",
+        "en": "Visakha Bousa Festival"
+      },
       "description": {
         "lo": "ລະນຶກເຖິງວັນປະສູດ, ຕັດສະຮູ້ ແລະ ປະລິນິບພານ ຂອງພະພຸດທະເຈົ້າ ເຊິ່ງກົງກັບວັນເພັງເດືອນຫົກ.",
         "en": "Commemorates the birth, enlightenment and passing of the Buddha, all on the full moon of month 6."
       },
-      "rule": { "type": "lunar", "month": 6, "phase": "waxing", "day": 15 },
+      "rule": {
+        "type": "lunar",
+        "month": 6,
+        "phase": "waxing",
+        "day": 15
+      },
       "reviewed": false,
       "source": "BCEL calendar 2022-2026"
     },
     {
       "id": "be-change",
       "kind": "buddhist",
-      "title": { "lo": "ວັນປ່ຽນ ພ.ສ.", "en": "Change of Buddhist Era year" },
-      "rule": { "type": "lunar", "month": 6, "phase": "waning", "day": 1 },
+      "title": {
+        "lo": "ວັນປ່ຽນ ພ.ສ.",
+        "en": "Change of Buddhist Era year"
+      },
+      "rule": {
+        "type": "lunar",
+        "month": 6,
+        "phase": "waning",
+        "day": 1
+      },
       "source": "BCEL calendar 2022-2026"
     },
     {
       "id": "khao-phansa",
       "kind": "buddhist",
-      "title": { "lo": "ວັນບຸນເຂົ້າພັນສາ", "en": "Beginning of Buddhist Lent" },
+      "title": {
+        "lo": "ວັນບຸນເຂົ້າພັນສາ",
+        "en": "Beginning of Buddhist Lent"
+      },
       "description": {
         "lo": "ພະສົງເລີ່ມຈຳພັນສາຢູ່ວັດ 3 ເດືອນໃນລະດູຝົນ. ຍາດໂຍມຖວາຍທຽນພັນສາ ແລະ ຜ້າອາບນ້ຳຝົນ.",
         "en": "Monks begin the three-month rains retreat in their temple. Laypeople offer Lent candles and rain robes."
       },
-      "rule": { "type": "lunar", "month": 8, "phase": "waxing", "day": 15 },
+      "rule": {
+        "type": "lunar",
+        "month": 8,
+        "phase": "waxing",
+        "day": 15
+      },
       "reviewed": false,
       "source": "BCEL calendar 2022-2026"
     },
     {
       "id": "haw-khao-padapdin",
       "kind": "buddhist",
-      "title": { "lo": "ວັນບຸນຫໍ່ເຂົ້າປະດັບດິນ", "en": "Boun Haw Khao Padapdin" },
+      "title": {
+        "lo": "ວັນບຸນຫໍ່ເຂົ້າປະດັບດິນ",
+        "en": "Boun Haw Khao Padapdin"
+      },
       "description": {
         "lo": "ຫໍ່ເຂົ້າ, ອາຫານ ແລະ ໝາກໄມ້ ວາງໄວ້ຕາມພື້ນດິນ ອຸທິດສ່ວນກຸສົນໃຫ້ຜູ້ລ່ວງລັບ.",
         "en": "Parcels of rice, food and fruit are laid on the ground to make merit for the departed."
       },
-      "rule": { "type": "lunar", "month": 9, "phase": "waning", "day": "last" },
+      "rule": {
+        "type": "lunar",
+        "month": 9,
+        "phase": "waning",
+        "day": "last"
+      },
       "reviewed": false,
       "source": "BCEL calendar 2022-2026"
     },
     {
       "id": "haw-khao-salark",
       "kind": "buddhist",
-      "title": { "lo": "ວັນບຸນຫໍ່ເຂົ້າສະຫຼາກ", "en": "Boun Haw Khao Salark" },
+      "title": {
+        "lo": "ວັນບຸນຫໍ່ເຂົ້າສະຫຼາກ",
+        "en": "Boun Haw Khao Salark"
+      },
       "description": {
         "lo": "ຖວາຍພັດຕາຫານແບບສະຫຼາກ ໃຫ້ພະສົງຈັບສະຫຼາກ ແລະ ອຸທິດສ່ວນກຸສົນໃຫ້ບັນພະບຸລຸດ.",
         "en": "Offerings are given to monks by drawing lots, making merit for ancestors."
       },
-      "rule": { "type": "lunar", "month": 10, "phase": "waxing", "day": 15 },
+      "rule": {
+        "type": "lunar",
+        "month": 10,
+        "phase": "waxing",
+        "day": 15
+      },
       "reviewed": false,
       "source": "BCEL calendar 2022-2026"
     },
     {
       "id": "ok-phansa",
       "kind": "buddhist",
-      "title": { "lo": "ວັນບຸນອອກພັນສາ", "en": "End of Buddhist Lent" },
+      "title": {
+        "lo": "ວັນບຸນອອກພັນສາ",
+        "en": "End of Buddhist Lent"
+      },
       "description": {
         "lo": "ພະສົງອອກພັນສາ. ຕອນແລງມີການໄຫຼເຮືອໄຟ ແລະ ລອຍກະທົງ.",
         "en": "Monks end the rains retreat. In the evening there are illuminated boat processions and floating offerings."
       },
-      "rule": { "type": "lunar", "month": 11, "phase": "waxing", "day": 15 },
+      "rule": {
+        "type": "lunar",
+        "month": 11,
+        "phase": "waxing",
+        "day": 15
+      },
       "reviewed": false,
       "source": "BCEL calendar 2022-2026"
     },
     {
       "id": "boat-racing-vientiane",
       "kind": "buddhist",
-      "title": { "lo": "ວັນບຸນຊ່ວງເຮືອ ນະຄອນຫຼວງວຽງຈັນ", "en": "Vientiane Boat Racing Festival" },
-      "rule": { "type": "lunar", "month": 11, "phase": "waning", "day": 1 },
+      "title": {
+        "lo": "ວັນບຸນຊ່ວງເຮືອ ນະຄອນຫຼວງວຽງຈັນ",
+        "en": "Vientiane Boat Racing Festival"
+      },
+      "rule": {
+        "type": "lunar",
+        "month": 11,
+        "phase": "waning",
+        "day": 1
+      },
       "region": "vientiane-capital",
       "source": "BCEL calendar 2022-2026"
     },
     {
       "id": "that-luang",
       "kind": "buddhist",
-      "title": { "lo": "ວັນບຸນນະມັດສະການ ພະທາດຫຼວງວຽງຈັນ", "en": "That Luang Festival" },
+      "title": {
+        "lo": "ວັນບຸນນະມັດສະການ ພະທາດຫຼວງວຽງຈັນ",
+        "en": "That Luang Festival"
+      },
       "description": {
         "lo": "ບຸນໃຫຍ່ປະຈຳປີຂອງພະທາດຫຼວງ: ແຫ່ຜາສາດເຜິ້ງ, ຕັກບາດທີ່ລານທາດ ແລະ ວຽນທຽນ.",
         "en": "The great annual festival of Pha That Luang: wax-castle processions, mass alms-giving at the stupa and candle processions."
       },
-      "rule": { "type": "lunar", "month": 12, "phase": "waxing", "day": 15 },
+      "rule": {
+        "type": "lunar",
+        "month": 12,
+        "phase": "waxing",
+        "day": 15
+      },
       "region": "vientiane-capital",
       "reviewed": false,
       "source": "BCEL calendar 2022-2026"
     },
-
     {
       "id": "heet-1-khao-kam",
       "kind": "tradition",
       "group": "heet12",
-      "title": { "lo": "ບຸນເຂົ້າກຳ", "en": "Boun Khao Kam" },
+      "title": {
+        "lo": "ບຸນເຂົ້າກຳ",
+        "en": "Boun Khao Kam"
+      },
       "description": {
         "lo": "ຮີດທີ 1 (ເດືອນຈຽງ): ພະສົງເຂົ້າປະລິວາສກຳ ເພື່ອຊຳລະອາບັດ. ຍາດໂຍມໄປຖວາຍອາຫານ ແລະ ຮັກສາສິນ.",
         "en": "Heet 1 (month 1): monks enter a period of penance (parivasa); laypeople bring food and keep the precepts."
       },
-      "rule": { "type": "lunarMonth", "month": 1 },
+      "rule": {
+        "type": "lunarMonth",
+        "month": 1
+      },
       "reviewed": false,
       "source": "Heet Sip Song, Lao twelve-month customs"
     },
@@ -310,12 +556,18 @@
       "id": "heet-2-khoun-lan",
       "kind": "tradition",
       "group": "heet12",
-      "title": { "lo": "ບຸນຄູນລານ", "en": "Boun Khoun Lan" },
+      "title": {
+        "lo": "ບຸນຄູນລານ",
+        "en": "Boun Khoun Lan"
+      },
       "description": {
         "lo": "ຮີດທີ 2 (ເດືອນຍີ່): ບຸນຫຼັງເກັບກ່ຽວ. ນິມົນພະສົງມາສູດມົນທີ່ລານເຂົ້າ ເພື່ອຄວາມອຸດົມສົມບູນ.",
         "en": "Heet 2 (month 2): the after-harvest merit; monks chant at the threshing ground for a good harvest."
       },
-      "rule": { "type": "lunarMonth", "month": 2 },
+      "rule": {
+        "type": "lunarMonth",
+        "month": 2
+      },
       "reviewed": false,
       "source": "Heet Sip Song, Lao twelve-month customs"
     },
@@ -323,12 +575,18 @@
       "id": "heet-3-khao-chi",
       "kind": "tradition",
       "group": "heet12",
-      "title": { "lo": "ບຸນຂ້າວຈີ່", "en": "Boun Khao Chi" },
+      "title": {
+        "lo": "ບຸນຂ້າວຈີ່",
+        "en": "Boun Khao Chi"
+      },
       "description": {
         "lo": "ຮີດທີ 3 (ເດືອນສາມ): ຖວາຍຂ້າວຈີ່ ແກ່ພະສົງໃນຍາມເຊົ້າ, ມັກເຮັດຄູ່ກັບບຸນມາຄະບູຊາ.",
         "en": "Heet 3 (month 3): offering grilled sticky-rice cakes (khao chi) to monks, often together with Makha Bousa."
       },
-      "rule": { "type": "lunarMonth", "month": 3 },
+      "rule": {
+        "type": "lunarMonth",
+        "month": 3
+      },
       "reviewed": false,
       "source": "Heet Sip Song, Lao twelve-month customs"
     },
@@ -336,12 +594,18 @@
       "id": "heet-4-pha-vet",
       "kind": "tradition",
       "group": "heet12",
-      "title": { "lo": "ບຸນພະເວດ", "en": "Boun Pha Vet" },
+      "title": {
+        "lo": "ບຸນພະເວດ",
+        "en": "Boun Pha Vet"
+      },
       "description": {
         "lo": "ຮີດທີ 4 (ເດືອນສີ່): ຟັງເທດມະຫາຊາດ ເລື່ອງພະເວດສັນດອນ ໃຫ້ຈົບພາຍໃນມື້ດຽວ.",
         "en": "Heet 4 (month 4): listening to the whole Vessantara Jataka (Maha Chat) sermon in a single day."
       },
-      "rule": { "type": "lunarMonth", "month": 4 },
+      "rule": {
+        "type": "lunarMonth",
+        "month": 4
+      },
       "reviewed": false,
       "source": "Heet Sip Song, Lao twelve-month customs"
     },
@@ -349,12 +613,18 @@
       "id": "heet-6-bang-fai",
       "kind": "tradition",
       "group": "heet12",
-      "title": { "lo": "ບຸນບັ້ງໄຟ", "en": "Boun Bang Fai (Rocket Festival)" },
+      "title": {
+        "lo": "ບຸນບັ້ງໄຟ",
+        "en": "Boun Bang Fai (Rocket Festival)"
+      },
       "description": {
         "lo": "ຮີດທີ 6 (ເດືອນຫົກ): ຈູດບັ້ງໄຟຂໍຝົນ ກ່ອນລະດູເຮັດນາ. ແຕ່ລະບ້ານກຳນົດວັນເອງ.",
         "en": "Heet 6 (month 6): rockets are fired to call the rain before rice planting; each village picks its own day."
       },
-      "rule": { "type": "lunarMonth", "month": 6 },
+      "rule": {
+        "type": "lunarMonth",
+        "month": 6
+      },
       "reviewed": false,
       "source": "Heet Sip Song, Lao twelve-month customs"
     },
@@ -362,12 +632,18 @@
       "id": "heet-7-sam-ha",
       "kind": "tradition",
       "group": "heet12",
-      "title": { "lo": "ບຸນຊຳຮະ", "en": "Boun Sam Ha" },
+      "title": {
+        "lo": "ບຸນຊຳຮະ",
+        "en": "Boun Sam Ha"
+      },
       "description": {
         "lo": "ຮີດທີ 7 (ເດືອນເຈັດ): ບຸນຊຳລະລ້າງບ້ານເມືອງ ປັດເປົ່າສິ່ງບໍ່ດີ ແລະ ເສີມສາມັກຄີໃນບ້ານ.",
         "en": "Heet 7 (month 7): cleansing the village to drive away misfortune and bring people together."
       },
-      "rule": { "type": "lunarMonth", "month": 7 },
+      "rule": {
+        "type": "lunarMonth",
+        "month": 7
+      },
       "reviewed": false,
       "source": "Heet Sip Song, Lao twelve-month customs"
     },
@@ -375,18 +651,523 @@
       "id": "heet-12-kathin",
       "kind": "tradition",
       "group": "heet12",
-      "title": { "lo": "ບຸນກະຖິນ", "en": "Boun Kathin" },
+      "title": {
+        "lo": "ບຸນກະຖິນ",
+        "en": "Boun Kathin"
+      },
       "description": {
         "lo": "ຮີດທີ 12: ຖວາຍຜ້າກະຖິນ ແກ່ພະສົງ ໃນໄລຍະໜຶ່ງເດືອນຫຼັງອອກພັນສາ (ແຮມ 1 ຄ່ຳ ເດືອນ 11 ຫາ ວັນເພັງ ເດືອນ 12).",
         "en": "Heet 12: offering kathin robes to monks in the month after the end of Lent (waning 1 of month 11 to the full moon of month 12)."
       },
       "rule": {
         "type": "lunarRange",
-        "from": { "month": 11, "phase": "waning", "day": 1 },
-        "to": { "month": 12, "phase": "waxing", "day": 15 }
+        "from": {
+          "month": 11,
+          "phase": "waning",
+          "day": 1
+        },
+        "to": {
+          "month": 12,
+          "phase": "waxing",
+          "day": 15
+        }
       },
       "reviewed": false,
       "source": "Heet Sip Song, Lao twelve-month customs"
+    }
+  ],
+  "articles": [
+    {
+      "id": "fact-month-chiang",
+      "category": "fact",
+      "title": {
+        "lo": "ເປັນຫຍັງເດືອນທຳອິດຈຶ່ງເອີ້ນວ່າ ເດືອນຈຽງ?",
+        "en": "Why is the first month called Duean Chiang?"
+      },
+      "body": {
+        "lo": "ປະຕິທິນຈັນທະຄະຕິລາວ ເອີ້ນເດືອນທຳອິດວ່າ ເດືອນຈຽງ (ໄທເອີ້ນ ເດືອນອ້າຍ) ແລະ ເດືອນທີສອງວ່າ ເດືອນຍີ່. ຕັ້ງແຕ່ເດືອນສາມເປັນຕົ້ນໄປ ຈຶ່ງເອີ້ນຕາມຕົວເລກ.\n\nເດືອນຈຽງ ມັກເລີ່ມໃນທ້າຍເດືອນພະຈິກ ຫຼື ເດືອນທັນວາ, ສະນັ້ນ ປີຈັນທະຄະຕິ ຈຶ່ງເລີ່ມກ່ອນປີສາກົນປະມານໜຶ່ງເດືອນ.",
+        "en": "The Lao lunar calendar calls the first month Duean Chiang (Thai: Duean Ai) and the second Duean Yi. From the third month on, months are called by number.\n\nDuean Chiang usually begins in late November or December, so the lunar year starts about a month before the Gregorian one."
+      },
+      "when": [
+        {
+          "type": "lunarMonth",
+          "month": 1
+        }
+      ],
+      "reviewed": false,
+      "source": "BCEL calendar 2026"
+    },
+    {
+      "id": "fact-leap-month",
+      "category": "fact",
+      "title": {
+        "lo": "ເປັນຫຍັງບາງປີມີເດືອນແປດສອງເທື່ອ?",
+        "en": "Why do some years have two eighth months?"
+      },
+      "body": {
+        "lo": "ປີຈັນທະຄະຕິມີພຽງ 354 ມື້ ສັ້ນກວ່າປີສຸລິຍະຄະຕິປະມານ 11 ມື້. ເພື່ອບໍ່ໃຫ້ເດືອນເລື່ອນໜີລະດູການ ຈຶ່ງເພີ່ມເດືອນແປດອີກໜຶ່ງເດືອນ ປະມານ 7 ເທື່ອໃນທຸກ 19 ປີ.\n\nປີແບບນີ້ເອີ້ນວ່າ ປີອະທິກະມາດ ມີ 384 ມື້. ໃນປະຕິທິນຈະຂຽນວ່າ ດ.8/1 ແລະ ດ.8/2 (ເດືອນແປດຕົ້ນ ແລະ ເດືອນແປດຫຼັງ). ປີ 2023 ແລະ 2026 ແມ່ນປີອະທິກະມາດ.",
+        "en": "A lunar year has only 354 days, about 11 days shorter than the solar year. To keep the months in step with the seasons, a second eighth month is added about 7 times every 19 years.\n\nSuch a year is called an athikamat year and has 384 days. Calendars print the months as D.8/1 and D.8/2. 2023 and 2026 are athikamat years."
+      },
+      "when": [
+        {
+          "type": "lunarMonth",
+          "month": 8,
+          "yearKind": "extraMonth"
+        }
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "fact-leap-day",
+      "category": "fact",
+      "title": {
+        "lo": "ອະທິກະວານ ແມ່ນຫຍັງ?",
+        "en": "What is an athikawan year?"
+      },
+      "body": {
+        "lo": "ເດືອນຈັນທະຄະຕິ ສະລັບກັນ 29 ແລະ 30 ມື້ ເຊິ່ງສັ້ນກວ່າຮອບດວງເດືອນແທ້ເລັກນ້ອຍ. ບາງປີຈຶ່ງເພີ່ມອີກ 1 ມື້ ໃຫ້ເດືອນເຈັດມີ 30 ມື້.\n\nປີແບບນີ້ເອີ້ນວ່າ ປີອະທິກະວານ ມີ 355 ມື້ ເຊັ່ນ ປີ 2025.",
+        "en": "Lunar months alternate between 29 and 30 days, slightly shorter than the real lunar cycle. So in some years one day is added and month 7 gets 30 days.\n\nSuch a year is called an athikawan year and has 355 days, like 2025."
+      },
+      "when": [
+        {
+          "type": "lunarMonth",
+          "month": 7,
+          "yearKind": "extraDay"
+        }
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "fact-holy-days",
+      "category": "fact",
+      "title": {
+        "lo": "ວັນສິນ ມີເດືອນລະຈັກມື້?",
+        "en": "How many holy days are there in a month?"
+      },
+      "body": {
+        "lo": "ເດືອນໜຶ່ງມີວັນສິນ 4 ມື້: ຂຶ້ນ 8 ຄ່ຳ, ຂຶ້ນ 15 ຄ່ຳ (ວັນເພັງ), ແຮມ 8 ຄ່ຳ ແລະ ມື້ສຸດທ້າຍຂອງເດືອນ (ວັນດັບ).\n\nວັນດັບ ແມ່ນແຮມ 14 ຄ່ຳ ໃນເດືອນທີ່ມີ 29 ມື້ ຫຼື ແຮມ 15 ຄ່ຳ ໃນເດືອນທີ່ມີ 30 ມື້. ໃນມື້ສິນ ຍາດໂຍມໄປວັດ ຕັກບາດ ຮັກສາສິນ ແລະ ຟັງທຳ.",
+        "en": "A month has 4 holy days: waxing 8, waxing 15 (full moon), waning 8 and the last day of the month (new moon).\n\nThe new-moon day is waning 14 in a 29-day month or waning 15 in a 30-day month. On holy days people go to the temple, give alms, keep the precepts and listen to sermons."
+      },
+      "when": [
+        {
+          "type": "holyDay"
+        }
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "fact-be-change",
+      "category": "fact",
+      "title": {
+        "lo": "ພ.ສ. ປ່ຽນມື້ໃດ?",
+        "en": "When does the Buddhist Era year change?"
+      },
+      "body": {
+        "lo": "ໃນປະຕິທິນລາວ ພຸດທະສັກກະລາດ ບໍ່ໄດ້ປ່ຽນໃນວັນທີ 1 ມັງກອນ ແຕ່ປ່ຽນໃນມື້ແຮມ 1 ຄ່ຳ ເດືອນຫົກ ຄືມື້ຖັດຈາກວັນວິສາຂະບູຊາ.\n\nປີ 2026 ປ່ຽນເປັນ ພ.ສ. 2569 ໃນວັນທີ 2 ພຶດສະພາ. ປີນັກສັດ ກໍປ່ຽນໃນມື້ດຽວກັນ.",
+        "en": "In the Lao calendar the Buddhist Era does not change on 1 January but on waning 1 of month 6, the day after Visakha Bousa.\n\nIn 2026 it became B.E. 2569 on 2 May. The animal year changes on the same day."
+      },
+      "when": [
+        {
+          "type": "event",
+          "id": "be-change"
+        },
+        {
+          "type": "event",
+          "id": "visakha-bousa"
+        }
+      ],
+      "reviewed": false,
+      "source": "BCEL calendar 2022-2026"
+    },
+    {
+      "id": "fact-short-full-months",
+      "category": "fact",
+      "title": {
+        "lo": "ເດືອນຂາດ ແລະ ເດືອນເຕັມ",
+        "en": "Short and full months"
+      },
+      "body": {
+        "lo": "ເດືອນຄີກ (ເດືອນຈຽງ, ສາມ, ຫ້າ, ເຈັດ, ເກົ້າ, ສິບເອັດ) ມີ 29 ມື້ ເອີ້ນວ່າ ເດືອນຂາດ ສິ້ນເດືອນໃນມື້ແຮມ 14 ຄ່ຳ.\n\nເດືອນຄູ່ ມີ 30 ມື້ ເອີ້ນວ່າ ເດືອນເຕັມ ສິ້ນເດືອນໃນມື້ແຮມ 15 ຄ່ຳ.",
+        "en": "Odd months (1, 3, 5, 7, 9, 11) have 29 days and are called short months; they end on waning 14.\n\nEven months have 30 days and are called full months; they end on waning 15."
+      },
+      "reviewed": false
+    },
+    {
+      "id": "fact-moving-festivals",
+      "category": "fact",
+      "title": {
+        "lo": "ເປັນຫຍັງວັນບຸນຈຶ່ງບໍ່ກົງກັນທຸກປີ?",
+        "en": "Why do festivals fall on different dates each year?"
+      },
+      "body": {
+        "lo": "ວັນບຸນທາງພຸດທະສາສະໜາ ກຳນົດຕາມປະຕິທິນຈັນທະຄະຕິ ເຊິ່ງສັ້ນກວ່າປີສາກົນ 11 ມື້. ວັນບຸນຈຶ່ງມາໄວຂຶ້ນປີລະປະມານ 11 ມື້.\n\nເມື່ອຮອດປີອະທິກະມາດ ວັນບຸນຈະເລື່ອນກັບໄປຊ້າລົງປະມານ 19 ມື້ ເພື່ອໃຫ້ກົງກັບລະດູການຄືເກົ່າ.",
+        "en": "Buddhist festivals follow the lunar calendar, which is 11 days shorter than the Gregorian year, so each festival comes about 11 days earlier every year.\n\nIn an athikamat year the festivals jump back about 19 days later, keeping them in their season."
+      },
+      "reviewed": false
+    },
+    {
+      "id": "fact-makha-laos-thai",
+      "category": "fact",
+      "title": {
+        "lo": "ມາຄະບູຊາ ລາວ ແລະ ໄທ ບາງປີບໍ່ກົງກັນ",
+        "en": "Makha Bousa can differ between Laos and Thailand"
+      },
+      "body": {
+        "lo": "ໃນປີອະທິກະມາດ ໄທເລື່ອນມາຄະບູຊາ ໄປວັນເພັງເດືອນສີ່ ແລະ ວິສາຂະບູຊາ ໄປເດືອນເຈັດ, ແຕ່ລາວຍັງຖືວັນເພັງເດືອນສາມ ແລະ ເດືອນຫົກຄືເກົ່າ.\n\nຕົວຢ່າງ ປີ 2023: ມາຄະບູຊາຂອງລາວ ແມ່ນວັນທີ 5 ກຸມພາ, ສ່ວນໄທ ແມ່ນວັນທີ 6 ມີນາ.",
+        "en": "In athikamat years Thailand moves Makha Bucha to the full moon of month 4 and Visakha Bucha to month 7, while Laos keeps months 3 and 6.\n\nFor example in 2023, Lao Makha Bousa was on 5 February, the Thai one on 6 March."
+      },
+      "when": [
+        {
+          "type": "event",
+          "id": "makha-bousa"
+        }
+      ],
+      "reviewed": false,
+      "source": "BCEL calendar 2023"
+    },
+    {
+      "id": "fact-khao-phansa-leap",
+      "category": "fact",
+      "title": {
+        "lo": "ເຂົ້າພັນສາ ໃນປີທີ່ມີເດືອນແປດສອງເທື່ອ",
+        "en": "Buddhist Lent in a year with two eighth months"
+      },
+      "body": {
+        "lo": "ບຸນເຂົ້າພັນສາ ແມ່ນວັນເພັງເດືອນແປດ. ໃນປີທີ່ມີເດືອນແປດສອງເທື່ອ ຈະຖືເອົາວັນເພັງ ເດືອນແປດຫຼັງ, ເຂົ້າພັນສາ ຈຶ່ງຊ້າກວ່າປີອື່ນ.\n\nຕົວຢ່າງ ປີ 2026 ເຂົ້າພັນສາ ແມ່ນວັນທີ 29 ກໍລະກົດ.",
+        "en": "Khao Phansa is the full moon of month 8. In a year with two eighth months it is kept on the full moon of the second one, so Lent starts later than usual.\n\nIn 2026, for example, Lent began on 29 July."
+      },
+      "when": [
+        {
+          "type": "event",
+          "id": "khao-phansa"
+        }
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "fact-that-luang-loy-krathong",
+      "category": "fact",
+      "title": {
+        "lo": "ບຸນທາດຫຼວງ ກົງກັບ ລອຍກະທົງ",
+        "en": "That Luang falls on the same day as Loy Krathong"
+      },
+      "body": {
+        "lo": "ບຸນນະມັດສະການພະທາດຫຼວງ ຈັດໃນວັນເພັງເດືອນສິບສອງ ເຊິ່ງເປັນມື້ດຽວກັນກັບບຸນລອຍກະທົງ ຂອງໄທ ແລະ ບຸນອົມທູກ ຂອງກຳປູເຈຍ.",
+        "en": "The That Luang Festival is held on the full moon of month 12, the same day as Thailand's Loy Krathong and Cambodia's Bon Om Touk."
+      },
+      "when": [
+        {
+          "type": "event",
+          "id": "that-luang"
+        }
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "fact-lao-digits",
+      "category": "fact",
+      "title": {
+        "lo": "ໂຕເລກລາວ",
+        "en": "Lao digits"
+      },
+      "body": {
+        "lo": "ໂຕເລກລາວ ໐ ໑ ໒ ໓ ໔ ໕ ໖ ໗ ໘ ໙ ຍັງໃຊ້ໃນປະຕິທິນ ແລະ ເອກະສານທາງການ ເຊັ່ນ ພ.ສ. ໒໕໖໙ ແມ່ນ ພ.ສ. 2569.",
+        "en": "Lao digits ໐ ໑ ໒ ໓ ໔ ໕ ໖ ໗ ໘ ໙ are still used on calendars and in official documents: ພ.ສ. ໒໕໖໙ is B.E. 2569."
+      },
+      "reviewed": false
+    },
+    {
+      "id": "fact-zodiac",
+      "category": "fact",
+      "title": {
+        "lo": "ປີນັກສັດ 12 ປີ",
+        "en": "The twelve animal years"
+      },
+      "body": {
+        "lo": "ລາວນັບປີເປັນຮອບ 12 ປີ ຕາມສັດ 12 ໂຕ: ຊວດ (ໜູ), ສະຫຼູ (ງົວ), ຂານ (ເສືອ), ເຖາະ (ກະຕ່າຍ), ມະໂຮງ (ງູໃຫຍ່), ມະເສັງ (ງູນ້ອຍ), ມະເມຍ (ມ້າ), ມະແມ (ແບ້), ວອກ (ລິງ), ລະກາ (ໄກ່), ເສັດ (ໝາ) ແລະ ກຸນ (ໝູ).\n\nປີ 2026 ແມ່ນປີມະເມຍ. ໃນປະຕິທິນ ປີນັກສັດປ່ຽນພ້ອມກັບ ພ.ສ.",
+        "en": "Lao years run in a 12-year cycle of animals: rat, ox, tiger, rabbit, naga/dragon, snake, horse, goat, monkey, rooster, dog and pig.\n\n2026 is the year of the horse. On the calendar the animal year changes together with the Buddhist Era."
+      },
+      "reviewed": false
+    },
+    {
+      "id": "fact-heet-khong",
+      "category": "fact",
+      "title": {
+        "lo": "ຮີດສິບສອງ ຄອງສິບສີ່",
+        "en": "Heet Sip Song, Khong Sip Si"
+      },
+      "body": {
+        "lo": "ຮີດສິບສອງ ແມ່ນບຸນປະເພນີປະຈຳ 12 ເດືອນ ຂອງຊາວລາວ, ສ່ວນ ຄອງສິບສີ່ ແມ່ນແນວທາງປະພຶດ 14 ຂໍ້ ສຳລັບຜູ້ປົກຄອງ ແລະ ປະຊາຊົນ.\n\nສອງຢ່າງນີ້ ເປັນແບບແຜນການດຳລົງຊີວິດ ແລະ ການຢູ່ຮ່ວມກັນໃນບ້ານ ທີ່ສືບທອດມາແຕ່ບູຮານ.",
+        "en": "Heet Sip Song are the twelve monthly customs and festivals of the Lao; Khong Sip Si are fourteen guidelines of conduct for rulers and people.\n\nTogether they form the traditional pattern of village life handed down from the past."
+      },
+      "reviewed": false
+    },
+    {
+      "id": "legend-nang-sangkhan",
+      "category": "legend",
+      "title": {
+        "lo": "ຕຳນານນາງສັງຂານ",
+        "en": "The legend of Nang Sangkhan"
+      },
+      "body": {
+        "lo": "ທ້າວກະບິນລະພົມ ຖາມປິດສະໜາ ທ້າວທຳມະບານ ໂດຍພະນັນເອົາຫົວເປັນເດີມພັນ.\n\nທ້າວກະບິນລະພົມ ເປັນເທວະດາ ໄດ້ຍິນວ່າ ທ້າວທຳມະບານ ເດັກຊາຍຜູ້ສະຫຼາດຮອບຮູ້. ຈຶ່ງມາຖາມປິດສະໜາວ່າ: ຕອນເຊົ້າ, ຕອນສວາຍ ແລະ ຕອນແລງ ສີຣິ (ສິ່ງເປັນສີມຸງຄຸນ) ຂອງຄົນຢູ່ໃສ? ຖ້າຕອບໄດ້ ຈະຕັດຫົວຕົນເອງໃຫ້, ຖ້າຕອບບໍ່ໄດ້ ທ້າວທຳມະບານ ຕ້ອງເສຍຫົວ.\n\nທ້າວທຳມະບານ ໄດ້ຍິນນົກອິນຊີສອງໂຕລົມກັນ ຈຶ່ງຕອບໄດ້ວ່າ: ຕອນເຊົ້າ ສີຣິຢູ່ໜ້າ ຄົນຈຶ່ງລ້າງໜ້າ; ຕອນສວາຍ ຢູ່ເອິກ ຄົນຈຶ່ງເອົາເຄື່ອງຫອມທາເອິກ; ຕອນແລງ ຢູ່ຕີນ ຄົນຈຶ່ງລ້າງຕີນ.\n\nທ້າວກະບິນລະພົມ ຈຶ່ງຕ້ອງຕັດຫົວຂອງຕົນ. ແຕ່ຫົວນັ້ນມີລິດແຮງ: ຖ້າຕົກໃສ່ແຜ່ນດິນ ໄຟຈະໄໝ້ໂລກ, ຖ້າໂຍນຂຶ້ນຟ້າ ຝົນຈະແລ້ງ, ຖ້າຕົກລົງທະເລ ນ້ຳຈະແຫ້ງ. ລູກສາວທັງ 7 ຂອງເພິ່ນ ຈຶ່ງຜັດປ່ຽນກັນເຊີນຫົວພໍ່ ແຫ່ອ້ອມພູເຂົາພະສຸເມນ ປີລະເທື່ອ.\n\nລູກສາວຜູ້ທີ່ຮັບໜ້າທີ່ໃນປີນັ້ນ ເອີ້ນວ່າ ນາງສັງຂານ. ນາງຜູ້ໃດ ແມ່ນຂຶ້ນກັບວ່າ ວັນສັງຂານລ່ວງ ກົງກັບວັນໃດໃນອາທິດ.",
+        "en": "Kabinlaphom wagered his head on a riddle he asked young Thammaban.\n\nKabinlaphom, a deity, heard of the boy Thammaban's great wisdom and came to ask him a riddle: in the morning, at midday and in the evening, where does a person's glory (siri) dwell? If the boy answered, the deity would cut off his own head; if not, the boy would lose his.\n\nThammaban overheard two eagles talking and answered: in the morning it is on the face, so people wash their face; at midday on the chest, so people put scent on their chest; in the evening on the feet, so people wash their feet.\n\nKabinlaphom had to cut off his head. But the head was so powerful that on the ground it would set the world on fire, thrown into the sky it would stop the rain, and dropped into the sea it would dry it up. So his seven daughters take turns carrying their father's head around Mount Sumeru, once a year.\n\nThe daughter on duty that year is called Nang Sangkhan; which one depends on the weekday of the first day of the New Year."
+      },
+      "when": [
+        {
+          "type": "event",
+          "id": "lao-new-year"
+        }
+      ],
+      "reviewed": false,
+      "source": "Lao and Thai Songkran tradition"
+    },
+    {
+      "id": "legend-khankhak",
+      "category": "legend",
+      "title": {
+        "lo": "ຕຳນານພະຍາຄັນຄາກ ກັບບຸນບັ້ງໄຟ",
+        "en": "Phaya Khankhak and the Rocket Festival"
+      },
+      "body": {
+        "lo": "ເປັນຫຍັງຄົນລາວຈຶ່ງຈູດບັ້ງໄຟຂໍຝົນ.\n\nໃນສະໄໝບູຮານ ພະຍາແຖນ ຜູ້ປົກຄອງເມືອງຟ້າ ໃຈຮ້າຍ ບໍ່ສົ່ງຝົນລົງມາເປັນເວລາ 7 ປີ 7 ເດືອນ 7 ວັນ, ຄົນ ແລະ ສັດ ລົ້ມຕາຍຍ້ອນຄວາມແຫ້ງແລ້ງ.\n\nພະຍາຄັນຄາກ (ພະຍາຄາງຄົກ) ຈຶ່ງນຳກອງທັບສັດ ເຊັ່ນ ນາກ, ປວກ, ແມງປ່ອງ ແລະ ຕໍ່ແຕນ ຂຶ້ນໄປລົບກັບພະຍາແຖນ ແລະ ເອົາຊະນະໄດ້.\n\nພະຍາແຖນ ຈຶ່ງສັນຍາວ່າ: ທຸກປີ ເມື່ອເຫັນບັ້ງໄຟຈູດຂຶ້ນຟ້າ ຈະສົ່ງຝົນລົງມາໃຫ້ຄົນເຮັດນາ; ເມື່ອໄດ້ຍິນສຽງກົບຂຽດຮ້ອງ ຈະຮູ້ວ່າຝົນມາພໍແລ້ວ; ເມື່ອໄດ້ຍິນສຽງຊູ້ວ່າວ ຈະຮູ້ວ່າໝົດລະດູຝົນ. ນີ້ຄືທີ່ມາຂອງບຸນບັ້ງໄຟ.",
+        "en": "Why the Lao fire rockets to call the rain.\n\nLong ago Phaya Thaen, ruler of the sky, grew angry and sent no rain for 7 years, 7 months and 7 days. People and animals died of drought.\n\nPhaya Khankhak, the toad king, led an army of animals, nagas, termites, scorpions and hornets, up to fight Phaya Thaen and won.\n\nPhaya Thaen promised: every year, when he sees rockets fired into the sky he will send rain for the rice fields; when he hears the frogs croak he will know there is enough rain; when he hears the kites humming he will know the rainy season is over. This is the origin of Boun Bang Fai."
+      },
+      "when": [
+        {
+          "type": "event",
+          "id": "heet-6-bang-fai"
+        }
+      ],
+      "reviewed": false,
+      "source": "Lao and Isan folk tradition"
+    },
+    {
+      "id": "legend-that-luang",
+      "category": "legend",
+      "title": {
+        "lo": "ປະຫວັດພະທາດຫຼວງ",
+        "en": "The story of Pha That Luang"
+      },
+      "body": {
+        "lo": "ສັນຍາລັກຂອງຊາດລາວ ທີ່ປາກົດຢູ່ໃນກາແຜ່ນດິນ.\n\nເຊື່ອກັນວ່າ ພະທາດຫຼວງ ສ້າງທັບພະທາດອົງເກົ່າ ທີ່ບັນຈຸພະບໍລົມມະສາລີລິກະທາດ ຂອງພະພຸດທະເຈົ້າ.\n\nເມື່ອພະເຈົ້າໄຊເສດຖາທິລາດ ຍ້າຍນະຄອນຫຼວງຈາກຫຼວງພະບາງ ມາວຽງຈັນ, ພະອົງໄດ້ໃຫ້ສ້າງພະທາດຫຼວງ ຂຶ້ນໃນປີ ຄ.ສ. 1566. ທຸກປີ ໃນວັນເພັງເດືອນສິບສອງ ຊາວລາວຈາກທົ່ວປະເທດ ມາຮ່ວມບຸນນະມັດສະການ ແຫ່ຜາສາດເຜິ້ງ ແລະ ຕັກບາດທີ່ລານທາດ.",
+        "en": "The symbol of the Lao nation, shown on the national emblem.\n\nPha That Luang is believed to stand over an older stupa holding a relic of the Buddha.\n\nWhen King Setthathirath moved the capital from Luang Prabang to Vientiane, he had That Luang built in 1566. Every year on the full moon of month 12, people from all over the country come for the festival, with wax-castle processions and mass alms-giving at the stupa."
+      },
+      "when": [
+        {
+          "type": "event",
+          "id": "that-luang"
+        }
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "legend-naga-fire-boats",
+      "category": "legend",
+      "title": {
+        "lo": "ພະຍານາກ ແລະ ເຮືອໄຟ",
+        "en": "The nagas and the fire boats"
+      },
+      "body": {
+        "lo": "ເປັນຫຍັງຈຶ່ງໄຫຼເຮືອໄຟ ໃນຄືນອອກພັນສາ.\n\nຊາວລາວລຽບແມ່ນ້ຳຂອງ ເຊື່ອວ່າ ພະຍານາກ ອາໄສຢູ່ໃນແມ່ນ້ຳ ແລະ ປົກປັກຮັກສາບ້ານເມືອງ.\n\nໃນຄືນອອກພັນສາ ເຊິ່ງເປັນມື້ທີ່ພະພຸດທະເຈົ້າ ສະເດັດລົງຈາກສະຫວັນຊັ້ນດາວະດຶງ, ຄົນຈຶ່ງໄຫຼເຮືອໄຟ ແລະ ກະທົງ ເພື່ອບູຊາພະພຸດທະເຈົ້າ, ບູຊາພະຍານາກ ແລະ ຂໍຂະມາແມ່ນ້ຳ. ມື້ຕໍ່ມາຈຶ່ງມີບຸນຊ່ວງເຮືອ.",
+        "en": "Why fire boats float on the night Lent ends.\n\nPeople along the Mekong believe nagas live in the river and protect the land.\n\nOn the night Lent ends, the day the Buddha came down from the Tavatimsa heaven, people float illuminated boats and offerings to honour the Buddha and the nagas and to ask the river's forgiveness. The boat races follow the next day."
+      },
+      "when": [
+        {
+          "type": "event",
+          "id": "ok-phansa"
+        },
+        {
+          "type": "event",
+          "id": "boat-racing-vientiane"
+        }
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "legend-padapdin",
+      "category": "legend",
+      "title": {
+        "lo": "ຫໍ່ເຂົ້າປະດັບດິນ ກັບຜີບັນພະບຸລຸດ",
+        "en": "Rice parcels for the spirits of the ancestors"
+      },
+      "body": {
+        "lo": "ເປັນຫຍັງຈຶ່ງວາງຫໍ່ເຂົ້າໄວ້ຕາມພື້ນດິນ.\n\nເຊື່ອກັນວ່າ ໃນມື້ດັບເດືອນເກົ້າ ວິນຍານຂອງຜູ້ລ່ວງລັບ ໄດ້ອອກມາຢາມລູກຫຼານ.\n\nແຕ່ເຊົ້າມືດ ຄົນຈຶ່ງເອົາຫໍ່ເຂົ້າ, ອາຫານ, ໝາກໄມ້ ແລະ ໝາກພູ ໄປວາງໄວ້ຕາມພື້ນດິນ ແລະ ກົກໄມ້ອ້ອມວັດ ເພື່ອໃຫ້ຜີບັນພະບຸລຸດ ແລະ ຜີທີ່ບໍ່ມີຍາດພີ່ນ້ອງ ໄດ້ຮັບສ່ວນບຸນ.",
+        "en": "Why rice parcels are laid on the ground.\n\nOn the new-moon day of month 9 the spirits of the dead are believed to come out to visit their families.\n\nBefore dawn people lay parcels of rice, food, fruit and betel on the ground and under trees around the temple, so that ancestors and spirits with no family can receive the merit."
+      },
+      "when": [
+        {
+          "type": "event",
+          "id": "haw-khao-padapdin"
+        }
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "folktale-xieng-mieng",
+      "category": "folktale",
+      "title": {
+        "lo": "ຊຽງໝ້ຽງ ກັບ ກະສັດລົງນ້ຳ",
+        "en": "Xieng Mieng gets the king into the water"
+      },
+      "summary": {
+        "lo": "ຄົນທຳມະດາຫົວໄວ ທີ່ໃຊ້ປັນຍາແກ້ເຜັດຜູ້ມີອຳນາດ.",
+        "en": "The quick-witted commoner who outsmarts the powerful."
+      },
+      "body": {
+        "lo": "ຊຽງໝ້ຽງ ເປັນຕົວລະຄອນທີ່ຮູ້ຈັກກັນດີ ໃນນິທານພື້ນບ້ານລາວ: ຄົນທຳມະດາ ແຕ່ຫົວໄວ ໃຊ້ປັນຍາແກ້ເຜັດຜູ້ມີອຳນາດ.\n\nມື້ໜຶ່ງ ກະສັດ ທ້າຊຽງໝ້ຽງວ່າ: ເຈົ້າສະຫຼາດນັກ ລອງຫຼອກໃຫ້ເຮົາລົງໄປໃນສະນ້ຳເບິ່ງດູ.\n\nຊຽງໝ້ຽງ ກົ້ມຫົວຕອບວ່າ: ຂ້ານ້ອຍ ບໍ່ສາມາດຫຼອກໃຫ້ພະອົງລົງນ້ຳໄດ້ດອກ, ແຕ່ຖ້າພະອົງຢູ່ໃນນ້ຳແລ້ວ ຂ້ານ້ອຍຫຼອກໃຫ້ຂຶ້ນມາໄດ້ແນ່ນອນ.\n\nກະສັດ ຢາກຮູ້ວ່າ ຊຽງໝ້ຽງ ຈະເຮັດແນວໃດ ຈຶ່ງລົງໄປຢືນໃນສະນ້ຳ. ຊຽງໝ້ຽງ ຫົວແລ້ວເວົ້າວ່າ: ພະອົງລົງນ້ຳແລ້ວ ຂ້ານ້ອຍຊະນະ.\n\nນິທານຊຽງໝ້ຽງ ສອນວ່າ ປັນຍາ ມີຄ່າກວ່າອຳນາດ.",
+        "en": "Xieng Mieng is the best-known trickster of Lao folk tales: a common man whose quick wit outsmarts the powerful.\n\nOne day the king challenged him: you are so clever, try to trick me into the pond.\n\nXieng Mieng bowed and said: I could never trick Your Majesty into the water, but if you were in it, I could surely trick you out.\n\nCurious to see how, the king stepped into the pond. Xieng Mieng laughed: Your Majesty is in the water, I win.\n\nXieng Mieng tales teach that wit is worth more than power."
+      },
+      "reviewed": false,
+      "source": "Lao folk tradition (versions vary)"
+    },
+    {
+      "id": "folktale-sithon-manora",
+      "category": "folktale",
+      "title": {
+        "lo": "ສີທົນ ມະໂນລາ",
+        "en": "Sithon and Manora"
+      },
+      "summary": {
+        "lo": "ເຈົ້າຊາຍ ກັບນາງກິນນະລີ ທີ່ຕ້ອງພັດພາກ ແລະ ຕິດຕາມຫາກັນ.",
+        "en": "A prince and a kinnari, parted and reunited."
+      },
+      "body": {
+        "lo": "ເລື່ອງຮັກ ລະຫວ່າງເຈົ້າຊາຍ ກັບນາງກິນນະລີ.\n\nນາງມະໂນລາ ເປັນກິນນະລີ ທີ່ບິນມາອາບນ້ຳໃນສະກາງປ່າ. ນາຍພານ ຈັບນາງໄດ້ ແລະ ນຳໄປຖວາຍເຈົ້າຊາຍສີທົນ. ທັງສອງຮັກກັນ ແລະ ແຕ່ງງານກັນ.\n\nເມື່ອເຈົ້າຊາຍໄປເຮັດເສິກ ໂຫລາໃນວັງ ໃສ່ຮ້າຍວ່ານາງເປັນຕົ້ນເຫດຂອງເຄາະຮ້າຍ ແລະ ຈະເອົານາງໄປບູຊາຍັນ. ນາງມະໂນລາ ຂໍປີກ ແລະ ຫາງ ມາຟ້ອນເປັນເທື່ອສຸດທ້າຍ ແລ້ວບິນໜີກັບບ້ານເກີດ.\n\nເຈົ້າຊາຍສີທົນ ກັບມາບໍ່ເຫັນເມຍ ຈຶ່ງອອກເດີນທາງ ຂ້າມປ່າ ຂ້າມພູ ເປັນເວລາຫຼາຍປີ ໄປຫານາງ ຈົນໄດ້ພົບກັນອີກ. ເລື່ອງນີ້ ສອນເຖິງຄວາມຮັກ ຄວາມອົດທົນ ແລະ ຄວາມສັດຊື່.",
+        "en": "A love story between a prince and a kinnari, a half-bird maiden.\n\nManora, a kinnari, flew down to bathe in a forest pool. A hunter caught her and gave her to Prince Sithon. They fell in love and married.\n\nWhile the prince was away at war, a court astrologer blamed her for the kingdom's misfortunes and planned to sacrifice her. Manora asked for her wings and tail to dance one last time, then flew back to her homeland.\n\nReturning to find her gone, Prince Sithon set out across forests and mountains for years until he found her again. The tale speaks of love, patience and faithfulness."
+      },
+      "reviewed": false,
+      "source": "Lao and Thai folk literature (versions vary)"
+    },
+    {
+      "id": "word-khuen-haem",
+      "category": "word",
+      "title": {
+        "lo": "ຂຶ້ນ / ແຮມ",
+        "en": "Khuen / Haem"
+      },
+      "body": {
+        "lo": "ຂຶ້ນ ແມ່ນ 15 ມື້ທີ່ດວງເດືອນ ກຳລັງໃຫຍ່ຂຶ້ນ ຈາກມືດຈົນເຕັມດວງ. ແຮມ ແມ່ນມື້ທີ່ດວງເດືອນ ກຳລັງນ້ອຍລົງ ຈົນບໍ່ເຫັນ.",
+        "en": "Khuen are the 15 days when the moon grows from dark to full. Haem are the days when it shrinks until it disappears."
+      },
+      "reviewed": false
+    },
+    {
+      "id": "word-kham",
+      "category": "word",
+      "title": {
+        "lo": "ຄ່ຳ",
+        "en": "Kham"
+      },
+      "body": {
+        "lo": "ໜ່ວຍນັບມື້ໃນເດືອນຈັນທະຄະຕິ. ຂຶ້ນ 5 ຄ່ຳ ໝາຍເຖິງ ມື້ທີ 5 ຂອງຂ້າງຂຶ້ນ. ຄ່ຳ ໝາຍເຖິງ ຍາມກາງຄືນ ເພາະຄົນບູຮານ ນັບມື້ຕາມຄືນທີ່ເຫັນດວງເດືອນ.",
+        "en": "The unit for counting days in a lunar month: 'khuen 5 kham' is the 5th day of the waxing moon. Kham means night, since people of old counted days by the nights they saw the moon."
+      },
+      "reviewed": false
+    },
+    {
+      "id": "word-pheng-dap",
+      "category": "word",
+      "title": {
+        "lo": "ເພັງ / ດັບ",
+        "en": "Pheng / Dap"
+      },
+      "body": {
+        "lo": "ວັນເພັງ ແມ່ນຄືນທີ່ດວງເດືອນເຕັມດວງ ກົງກັບຂຶ້ນ 15 ຄ່ຳ. ວັນດັບ ແມ່ນຄືນທີ່ບໍ່ເຫັນດວງເດືອນ ຄືມື້ສຸດທ້າຍຂອງເດືອນ.",
+        "en": "Pheng is the night of the full moon, waxing 15. Dap is the dark night with no moon, the last day of the month."
+      },
+      "reviewed": false
+    },
+    {
+      "id": "word-wan-sin",
+      "category": "word",
+      "title": {
+        "lo": "ວັນສິນ",
+        "en": "Wan Sin"
+      },
+      "body": {
+        "lo": "ມື້ທີ່ຍາດໂຍມໄປວັດ ຮັກສາສິນ 5 ຫຼື ສິນ 8 ແລະ ຟັງທຳ. ໄທເອີ້ນວ່າ ວັນພະ.",
+        "en": "The days when lay people go to the temple, keep the five or eight precepts and listen to the Dhamma. Thai calls them Wan Phra."
+      },
+      "reviewed": false
+    },
+    {
+      "id": "word-phansa",
+      "category": "word",
+      "title": {
+        "lo": "ພັນສາ",
+        "en": "Phansa"
+      },
+      "body": {
+        "lo": "ມາຈາກຄຳບາລີ ວັດສາ ແປວ່າ ລະດູຝົນ. ເຂົ້າພັນສາ ໝາຍເຖິງ ພະສົງຢູ່ປະຈຳວັດ 3 ເດືອນ ໃນລະດູຝົນ.",
+        "en": "From the Pali vassa, 'rainy season'. Khao Phansa means monks staying in their temple for the three months of the rains."
+      },
+      "reviewed": false
+    },
+    {
+      "id": "word-kathin",
+      "category": "word",
+      "title": {
+        "lo": "ກະຖິນ",
+        "en": "Kathin"
+      },
+      "body": {
+        "lo": "ມາຈາກຄຳບາລີ ກະຖິນະ ໝາຍເຖິງ ໄມ້ສະດຶງ ທີ່ໃຊ້ຂຶງຜ້າ ເວລາຕັດຫຍິບຈີວອນ. ຕໍ່ມາໝາຍເຖິງ ການຖວາຍຜ້າຈີວອນ ແກ່ພະສົງ ຫຼັງອອກພັນສາ.",
+        "en": "From the Pali kathina, the wooden frame used to stretch cloth when sewing robes. It came to mean offering robes to monks after Lent."
+      },
+      "reviewed": false
+    },
+    {
+      "id": "word-athika",
+      "category": "word",
+      "title": {
+        "lo": "ອະທິກະມາດ / ອະທິກະວານ",
+        "en": "Athikamat / Athikawan"
+      },
+      "body": {
+        "lo": "ອະທິກະ ແປວ່າ ເພີ່ມ ຫຼື ເກີນ; ມາດ ມາຈາກ ມາສ ແປວ່າ ເດືອນ; ວານ ມາຈາກ ວາລະ ແປວ່າ ມື້. ອະທິກະມາດ ຈຶ່ງແປວ່າ ເດືອນທີ່ເພີ່ມເຂົ້າ, ອະທິກະວານ ແປວ່າ ມື້ທີ່ເພີ່ມເຂົ້າ.",
+        "en": "Athika means 'added' or 'extra'; mat comes from masa, 'month'; wan from vara, 'day'. Athikamat is the added month, athikawan the added day."
+      },
+      "reviewed": false
+    },
+    {
+      "id": "word-sangkhan",
+      "category": "word",
+      "title": {
+        "lo": "ສັງຂານ",
+        "en": "Sangkhan"
+      },
+      "body": {
+        "lo": "ມາຈາກຄຳສັນສະກິດ ສັງກຣານຕິ ແປວ່າ ການເຄື່ອນຍ້າຍ, ໝາຍເຖິງ ດວງຕາເວັນ ຍ້າຍເຂົ້າສູ່ລາສີເມສ ເຊິ່ງເປັນການເລີ່ມປີໃໝ່.",
+        "en": "From the Sanskrit sankranti, 'passing over': the sun moving into Aries, which begins the new year."
+      },
+      "reviewed": false
+    },
+    {
+      "id": "word-wan-nao",
+      "category": "word",
+      "title": {
+        "lo": "ວັນເນົາ",
+        "en": "Wan Nao"
+      },
+      "body": {
+        "lo": "ມື້ລະຫວ່າງ ວັນສັງຂານລ່ວງ ແລະ ວັນສັງຂານຂຶ້ນ. ເນົາ ແປວ່າ ຢູ່ ຫຼື ພັກ: ເປັນມື້ທີ່ບໍ່ແມ່ນທັງປີເກົ່າ ແລະ ປີໃໝ່.",
+        "en": "The day(s) between the first and last days of the New Year. Nao means 'to stay': a day that belongs to neither the old year nor the new."
+      },
+      "reviewed": false
+    },
+    {
+      "id": "word-heet-khong",
+      "category": "word",
+      "title": {
+        "lo": "ຮີດ / ຄອງ",
+        "en": "Heet / Khong"
+      },
+      "body": {
+        "lo": "ຮີດ ມາຈາກ ຈາລີດ ໝາຍເຖິງ ປະເພນີທີ່ປະຕິບັດສືບກັນມາ. ຄອງ ໝາຍເຖິງ ແນວທາງ ຫຼື ຂໍ້ປະພຶດທີ່ຄວນຖື.",
+        "en": "Heet comes from jarit, customs practised from generation to generation. Khong means a path or code of conduct to follow."
+      },
+      "reviewed": false
     }
   ]
 }
