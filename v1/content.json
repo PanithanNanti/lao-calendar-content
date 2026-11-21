@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "2026-11-21.2",
+  "contentVersion": "2026-11-21.3",
   "events": [
     {
       "id": "new-year",
@@ -1168,6 +1168,148 @@
         "en": "Heet comes from jarit, customs practised from generation to generation. Khong means a path or code of conduct to follow."
       },
       "reviewed": false
+    }
+  ],
+  "sponsor": {
+    "name": "AlounnyShop",
+    "title": {
+      "lo": "ໂຮງງານຕັດຍິບ ອາລຸນນີ ຊ໋ອບ",
+      "en": "Alounny Garment Factory"
+    },
+    "tagline": {
+      "lo": "ລາວເຮັດລາວໄດ້ ລາວໃຊ້ລາວຈະເລີນ",
+      "en": "Made in Laos, for Laos"
+    },
+    "about": {
+      "lo": "ໂຮງງານຕັດຍິບເສື້ອຜ້າ ຮັບຜະລິດເຄື່ອງນຸ່ງຕາມແບບ ໃນ ສປປ ລາວ ຕັ້ງແຕ່ປີ 2013.\n\nປະຕິທິນນີ້ ແຈກຟຣີ ເພື່ອຕອບແທນລູກຄ້າ ແລະ ຄົນລາວທຸກຄົນ.",
+      "en": "A garment factory making clothing to order in Laos since 2013.\n\nThis calendar is given away free as a thank-you to our customers and to everyone in Laos."
+    },
+    "credit": {
+      "lo": "ປະຕິທິນນີ້ ແຈກຟຣີໂດຍ ອາລຸນນີ ຊ໋ອບ",
+      "en": "This calendar is a free gift from AlounnyShop"
+    },
+    "address": {
+      "lo": "ໜ້າຮ້ານ: ITECC Mall ຊັ້ນ 2 (ຫລັງຮ້ານຄຳສຳລານ)\nໂຮງງານ: ບ້ານໂພນສົມບູນ, ນະຄອນຫຼວງວຽງຈັນ",
+      "en": "Shop: ITECC Mall, 2nd floor (behind Khamsamlan)\nFactory: Phonsomboun Village, Vientiane Capital"
+    },
+    "hours": {
+      "lo": "ຈັນ - ເສົາ: 8:00 - 17:00",
+      "en": "Mon - Sat: 8:00 AM - 5:00 PM"
+    },
+    "links": [
+      {
+        "kind": "facebook",
+        "label": {
+          "lo": "Facebook",
+          "en": "Facebook"
+        },
+        "url": "https://www.facebook.com/alounnyshop"
+      },
+      {
+        "kind": "whatsapp",
+        "label": {
+          "lo": "WhatsApp",
+          "en": "WhatsApp"
+        },
+        "url": "https://wa.me/8562076191889"
+      },
+      {
+        "kind": "phone",
+        "label": {
+          "lo": "ໂທ 020 76 191 889",
+          "en": "Call +856 20 76 191 889"
+        },
+        "url": "tel:+8562076191889"
+      },
+      {
+        "kind": "email",
+        "label": {
+          "lo": "ອີເມວ",
+          "en": "Email"
+        },
+        "url": "mailto:alounnyadmin@alounnyshop.com"
+      },
+      {
+        "kind": "website",
+        "label": {
+          "lo": "alounnyshop.com",
+          "en": "alounnyshop.com"
+        },
+        "url": "https://alounnyshop.com"
+      },
+      {
+        "kind": "map",
+        "label": {
+          "lo": "ແຜນທີ່ໂຮງງານ",
+          "en": "Factory map"
+        },
+        "url": "https://www.google.com/maps/place/ALOUNNY+Garment+factory+Individual+Enterprise/@18.0064623,102.5008669,17z"
+      }
+    ]
+  },
+  "promos": [
+    {
+      "id": "promo-pi-mai",
+      "title": {
+        "lo": "ກຽມຊຸດໃໝ່ ຕ້ອນຮັບບຸນປີໃໝ່ລາວ",
+        "en": "New clothes for Lao New Year"
+      },
+      "body": {
+        "lo": "ສັ່ງຕັດ ຫຼື ສັ່ງຜະລິດເຄື່ອງນຸ່ງຕາມແບບ ກັບໂຮງງານຕັດຍິບ ອາລຸນນີ ຊ໋ອບ. ສັ່ງລ່ວງໜ້າ ເພື່ອໃຫ້ທັນບຸນ.",
+        "en": "Order tailored or made-to-order clothing from Alounny Garment Factory. Order early to be ready for the festival."
+      },
+      "action": {
+        "lo": "ທັກຫາທາງ WhatsApp",
+        "en": "Message us on WhatsApp"
+      },
+      "linkKind": "whatsapp",
+      "window": {
+        "type": "beforeEvent",
+        "id": "lao-new-year",
+        "days": 30
+      }
+    },
+    {
+      "id": "promo-ok-phansa",
+      "title": {
+        "lo": "ຊຸດໃໝ່ ສຳລັບບຸນອອກພັນສາ",
+        "en": "New clothes for the end of Lent"
+      },
+      "body": {
+        "lo": "ເຄື່ອງນຸ່ງໃສ່ໄປວັດ ແລະ ໄປເບິ່ງຊ່ວງເຮືອ ສັ່ງຕັດໄດ້ທີ່ ອາລຸນນີ ຊ໋ອບ.",
+        "en": "Clothes for the temple and the boat races, made to order at AlounnyShop."
+      },
+      "action": {
+        "lo": "ທັກຫາທາງ WhatsApp",
+        "en": "Message us on WhatsApp"
+      },
+      "linkKind": "whatsapp",
+      "window": {
+        "type": "beforeEvent",
+        "id": "ok-phansa",
+        "days": 21
+      }
+    },
+    {
+      "id": "promo-that-luang",
+      "title": {
+        "lo": "ຊຸດງາມ ໄປບຸນທາດຫຼວງ",
+        "en": "Dress up for That Luang"
+      },
+      "body": {
+        "lo": "ກຽມຊຸດໄປບຸນທາດຫຼວງ ສັ່ງຕັດ ຫຼື ສັ່ງຜະລິດຕາມແບບ ກັບ ອາລຸນນີ ຊ໋ອບ.",
+        "en": "Get ready for the That Luang Festival: tailored or made-to-order clothing from AlounnyShop."
+      },
+      "action": {
+        "lo": "ທັກຫາທາງ WhatsApp",
+        "en": "Message us on WhatsApp"
+      },
+      "linkKind": "whatsapp",
+      "window": {
+        "type": "beforeEvent",
+        "id": "that-luang",
+        "days": 30
+      }
     }
   ]
 }
